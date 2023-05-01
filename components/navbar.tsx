@@ -27,7 +27,7 @@ const NavBar = (): JSX.Element => {
               <div className="">
                 <Link href="/dog-clothing">
                   <div className="block px-4 py-2 pb-2 text-gray-800 hover:border-b border-yellow-400">
-                    Dog Clothing
+                    Dog&apos;s Clothing
                   </div>
                 </Link>
                 <Link href="/dog-clothing">
@@ -55,7 +55,7 @@ const NavBar = (): JSX.Element => {
               <div className="">
                 <Link href="/dog-clothing">
                   <div className="block px-4 py-2 pb-2 text-gray-800 hover:border-b border-yellow-400">
-                    Men Clothing
+                    Men&apos;s Clothing
                   </div>
                 </Link>
                 <Link href="/dog-clothing">
@@ -83,7 +83,7 @@ const NavBar = (): JSX.Element => {
               <div className="">
                 <Link href="/dog-clothing">
                   <div className="block px-4 py-2 pb-2 text-gray-800 hover:border-b border-yellow-400">
-                    Women's Clothing
+                    Women&apos;s Clothing
                   </div>
                 </Link>
                 <Link href="/dog-clothing">
