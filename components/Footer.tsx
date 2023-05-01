@@ -17,7 +17,7 @@ function Footer() {
           <Link className='hover:text-yellow-200 hover:cursor-pointer' href='/'>Home</Link>
           <Link className='hover:text-yellow-200 hover:cursor-pointer' href='/'>Shop</Link>
           <Link className='hover:text-yellow-200 hover:cursor-pointer' href='/'>Contact</Link>
-          <Link className='hover:text-yellow-200 hover:cursor-pointer' href='/'>About Us</Link>
+          <Link className='hover:text-yellow-200 hover:cursor-pointer' href='/'>Policy</Link>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-2 mb-4 ">

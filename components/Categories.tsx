@@ -4,7 +4,7 @@ import React from "react";
 function Categories() {
   return (
     <div className="h-full bg-hm bg-cover">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mx-4">
+      <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 ">
 
         <div className="h-screen bg-my bg-cover bg-center text-white lg:hover:scale-105 transition ease-in-out">
           <div className="h-screen flex flex-col items-start justify-end mx-4">

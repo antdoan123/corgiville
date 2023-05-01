@@ -120,7 +120,7 @@ const NavBar = (): JSX.Element => {
           <Link href="./products">Contact</Link>
         </div>
         <div className="px-4 text-xl cursor-pointer uppercase font-medium  hover:border-b border-yellow-200 hover:scale-105 duration-200">
-          <Link href="/about">About Us</Link>
+          <Link href="/about">Policy</Link>
         </div>
       </div>
 
