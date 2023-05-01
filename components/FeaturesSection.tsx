@@ -10,8 +10,8 @@ function FeaturesSection() {
         </h2>
 
         <div className="flex flex-wrap mx-4 mt-8">
-          <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-            <div className="flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
+          <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8 ">
+            <div className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
               <div className=" flex-shrink-0 w-full h-56 overflow-hidden">
                 <img
                   className="hover:scale-105 object-cover object-center w-full h-full"
@@ -31,7 +31,7 @@ function FeaturesSection() {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-            <div className="flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
+            <div className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
               <div className=" flex-shrink-0 w-full h-56 overflow-hidden">
                 <img
                   className="hover:scale-105 object-cover object-center w-full h-full"
@@ -51,7 +51,7 @@ function FeaturesSection() {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-            <div className="flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
+            <div className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
               <div className=" flex-shrink-0 w-full h-56 overflow-hidden">
                 <img
                   className="hover:scale-105 object-cover object-center w-full h-full"
@@ -71,7 +71,7 @@ function FeaturesSection() {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
-            <div className="flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
+            <div className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg shadow-lg transition-transform hover:scale-103">
               <div className=" flex-shrink-0 w-full h-56 overflow-hidden">
                 <img
                   className="hover:scale-105 object-cover object-center w-full h-full"
