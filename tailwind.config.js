@@ -14,6 +14,7 @@ module.exports = {
         'ho': " url('/corgihero.jpg')",
         'my': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/corgihero.jpg')",
         'hm': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/corgihomebg.jpg')",
+        'cbg': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/corgicontactbg.jpg')",
 
       },
     },

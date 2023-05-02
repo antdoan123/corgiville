@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const emailBody = {
-      subject: `antdoan - Message from ${senderNameRef.current?.value} (${senderEmailRef.current?.value})`,
+      subject: `Corgiville - Message from ${senderNameRef.current?.value} (${senderEmailRef.current?.value})`,
       text: messageRef.current?.value
     };
     try {
@@ -29,22 +29,23 @@ const Contact = () => {
   }
 
   return (
-    <div className='h-screen w-full bg-gradient-to-b from-gray-800  to-black '>
-      <div className="max-w-screen-4xl p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
-        <div className='pb-8'>
-          <h2 className="text-4xl font-bold inline border-b-2 border-blue-200">
-            Contact Me!
-          </h2>
-        </div>
+    <div className='h-screen w-full bg-cbg bg-fit bg-center'>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 className="pb-4 flex items-center justify-center pt-10 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+          Contact Us
+        </h2>
 
         <div>
           <form className='max-w-[600px] m-auto pt-4 text-white' onSubmit={handleSubmit}>
             <div className='grid grid-cols-2 gap-2 '>
-              <input className='bg-transparent border-b border-blue-200 p-3 ' ref={senderNameRef} type="text" placeholder='Name' />
-              <input className='bg-transparent  border-b border-blue-200 p-3 ' ref={senderEmailRef} type="email" placeholder='Email' />
+              <input className='bg-transparent border border-white p-3 ' ref={senderNameRef} type="text" placeholder='Name' />
+              <input className='bg-transparent  border border-white p-3 ' ref={senderEmailRef} type="email" placeholder='Email' />
             </div>
-            <textarea className='bg-transparent  border-b border-blue-200 p-3 w-full ' ref={messageRef} cols={30} rows={10} placeholder="Message" />
-            <a href="mailto:kingsbartendingservices@gmail.com" target="_blank" rel="noreferrer">
+            <div className='mt-4'>
+            <textarea className='bg-transparent border border-white p-3 w-full ' ref={messageRef} cols={30} rows={10} placeholder="Message" />
+
+            </div>
+            <a href="mailto:antdoan123@gmail.com" target="_blank" rel="noreferrer">
               <button className='hover:shadow-lg hover:shadow-blue-200 rounded-md p-3 w-full mt-2  bg-white text-black font-bold text-xl'>Submit</button>
             </a>
             <p className={`pt-1 text-green-200 italic ${sent ? '' : 'hidden'}`}>{"Sent! We'll get back to you shortly."}</p>
