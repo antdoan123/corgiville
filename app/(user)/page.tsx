@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/Footer";
 import FeaturesSection from "@/components/FeaturesSection";
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
     return (
@@ -16,6 +17,7 @@ export default function HomePage() {
             <Categories/>
             <FeaturesSection/>
             <About/>
+            <Contact/>
             <Footer/>
         </div>
     );

@@ -1,4 +1,4 @@
-import { FaBars, FaTimes } from "react-icons/fa";
+import {AiOutlineShoppingCart } from "react-icons/ai";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -117,7 +117,7 @@ const NavBar = (): JSX.Element => {
         </div>
 
         <div className="px-4 text-xl cursor-pointer uppercase font-medium  hover:border-b border-yellow-200 hover:scale-105 duration-200">
-          <Link href="./products">Contact</Link>
+          <Link href="/help">Contact</Link>
         </div>
         <div className="px-4 text-xl cursor-pointer uppercase font-medium  hover:border-b border-yellow-200 hover:scale-105 duration-200">
           <Link href="/about">Policy</Link>
@@ -125,7 +125,8 @@ const NavBar = (): JSX.Element => {
       </div>
 
       <div className="p-4 hidden md:flex items-center ml-auto">
-        <div className="px-4 text-xl cursor-pointer uppercase font-medium hover:border-b border-yellow-200 hover:scale-105 duration-200">
+        <div className="flex gap-2 px-4 items-center text-xl cursor-pointer uppercase font-medium hover:border-b border-yellow-200 hover:scale-105 duration-200">
+          <AiOutlineShoppingCart/>
           <Link href="./contact">{"Cart (0)"}</Link>
         </div>
       </div>
