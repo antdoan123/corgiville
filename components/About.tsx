@@ -8,7 +8,7 @@ function About() {
         <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
           About Us
         </h2>
-        <div className="mt-10 flex flex-col md:flex-row gap-8 items-center justify-center">
+        <div className="mt-10 flex flex-col lg:flex-row gap-8 items-center justify-center">
           <Image
             width={"480"}
             height={"220"}
